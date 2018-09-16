@@ -10,29 +10,13 @@
       <div class="menu-branding" :class="{ show: showMenu }">
         <div class="portrait"></div>
       </div>
-      <ul class="menu-nav" :class="{ show: showMenu }">
-        <li class="nav-item" :class="{ show: showMenu }">
-          <a href="index.html" class="nav-link" >
-            Home
-          </a>
-        </li>
-        <li class="nav-item current" :class="{ show: showMenu }">
-          <a href="about.html" class="nav-link">
-            About Me
-          </a>
-        </li>
-        <li class="nav-item" :class="{ show: showMenu }">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li>
-        <li class="nav-item" :class="{ show: showMenu }">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
-          </a>
-        </li>
+      <ul class="menu-nav" :class="{ show: showMenu }">    
+        <router-link tag="li" v-for="page in pages" :to="page.path" :key="page.key" class="nav-item" :class="{ show: showMenu }" @click.native="showMenu = !showMenu " >
+            <a class="nav-link">{{page.title}}</a>
+        </router-link>
       </ul>
-    </nav>
+    </nav>    
+            
   </header>    
 </template>
 
@@ -40,7 +24,18 @@
 export default {
   data () {
     return {
-      showMenu: false
+      showMenu: false,
+      pages: []
+    }
+  },
+  mounted() {
+    this.pages = this.filterPages();
+  },
+  methods: {
+    filterPages() {
+      let pages = this.$site.pages
+      let result = pages.filter( page => page.frontmatter.category === 'page')
+      return result.sort( (a,b) => a.frontmatter.order - b.frontmatter.order  )
     }
   }
 }

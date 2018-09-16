@@ -1,3 +1,9 @@
+---
+title: Home
+lang: en-US
+category: page
+order: 1
+---
 <main id="home">
   <h1 class="lg-heading">
     John
