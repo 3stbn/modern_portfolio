@@ -5,9 +5,10 @@
   box-sizing: border-box;
 }
 
-body {
+.body {
   @include background;
   background: $primary-color;
+  min-height: 100vh;
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
