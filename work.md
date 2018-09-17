@@ -15,7 +15,7 @@ order: 3
 <div class="projects">
     <div class="item">
     <a href="#!">
-        <img src="img/projects/project1.jpg" alt="Project">
+        <img src="./img/projects/project1.jpg" alt="Project">
     </a>
     <a href="#" class="btn-light">
         <i class="fas fa-eye"></i> Project
@@ -26,7 +26,7 @@ order: 3
     </div>
     <div class="item">
     <a href="#!">
-        <img src="img/projects/project2.jpg" alt="Project">
+        <img src="./img/projects/project2.jpg" alt="Project">
     </a>
     <a href="#" class="btn-light">
         <i class="fas fa-eye"></i> Project
@@ -37,7 +37,7 @@ order: 3
     </div>
     <div class="item">
     <a href="#!">
-        <img src="img/projects/project3.jpg" alt="Project">
+        <img src="./img/projects/project3.jpg" alt="Project">
     </a>
     <a href="#" class="btn-light">
         <i class="fas fa-eye"></i> Project
@@ -48,7 +48,7 @@ order: 3
     </div>
     <div class="item">
     <a href="#!">
-        <img src="img/projects/project4.jpg" alt="Project">
+        <img src="./img/projects/project4.jpg" alt="Project">
     </a>
     <a href="#" class="btn-light">
         <i class="fas fa-eye"></i> Project
@@ -59,7 +59,7 @@ order: 3
     </div>
     <div class="item">
     <a href="#!">
-        <img src="img/projects/project5.jpg" alt="Project">
+        <img src="./img/projects/project5.jpg" alt="Project">
     </a>
     <a href="#" class="btn-light">
         <i class="fas fa-eye"></i> Project

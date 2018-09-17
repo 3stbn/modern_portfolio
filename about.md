@@ -13,7 +13,7 @@ order: 2
       Let me tell you a few things...
     </h2>
     <div class="about-info">
-      <img src="img/portrait.jpg" alt="John Doe" class="bio-image">
+      <img src="./img/portrait.jpg" alt="John Doe" class="bio-image">
       <div class="bio">
         <h3 class="text-secondary">BIO</h3>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt magni nam nisi quae vitae? Quod molestiae ipsa
