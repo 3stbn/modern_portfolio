@@ -1,15 +1,14 @@
 ---
 title: About
-lang: en-US
 category: page
 order: 2
 ---
-  <main id="about">
-    <h1 class="lg-heading">
+  <main>
+    <h1>
       About
-      <span class="text-secondary">Me</span>
+      <span>Me</span>
     </h1>
-    <h2 class="sm-heading">
+    <h2>
       Let me tell you a few things...
     </h2>
     <div class="about-info">

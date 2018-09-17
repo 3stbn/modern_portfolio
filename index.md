@@ -1,15 +1,14 @@
 ---
 title: Home
-lang: en-US
 category: page
 order: 1
 ---
-<main id="home">
-  <h1 class="lg-heading">
+<div id="home">
+  <h1 >
     John
-    <span class="text-secondary">Doe</span>
+    <span>Doe</span>
   </h1>
-  <h2 class="sm-heading">
+  <h2>
     Web Developer, Programmer, Designer & Entrepreneur
   </h2>
   <div class="icons">
@@ -26,4 +25,4 @@ order: 1
       <i class="fab fa-github fa-2x"></i>
     </a>
   </div>
-</main>
+</div>

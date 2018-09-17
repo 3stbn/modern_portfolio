@@ -1,7 +1,9 @@
 <template>
   <div class="body" id="bg-img">
     <Nav></Nav>
-    <Content/>
+    <main>
+      <Content/>
+    </main>    
     <Footer v-if="$page.title !== 'Home'"></Footer>
   </div>
   
