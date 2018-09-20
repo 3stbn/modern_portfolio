@@ -1,7 +1,7 @@
 {
   "name": "modern_portfolio",
   "version": "1.0.0",
-  "description": "Responsive portfolio website",
+  "description": "Responsive Vuepress portfolio website",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev",
