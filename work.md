@@ -3,7 +3,7 @@ title: Work
 category: page
 order: 3
 ---
-<main>
+<div>
 <h1>
     My
     <span class="text-secondary">Work</span>
@@ -19,12 +19,12 @@ order: 3
         <router-link tag="a" :to="work.path" class="btn-light">
             <i class="fas fa-eye"></i> {{work.frontmatter.title}} 
         </router-link>
-        <a :href="work.frontmatter.extLink" target="_blank" class="btn-dark">
-            <i class="fab fa-github"></i> Github
+        <a v-if="work.frontmatter.extLink && work.frontmatter.ref" :href="work.frontmatter.extLink" target="_blank" class="btn-dark">
+            <i :class="refIcon(work.frontmatter.ref)"></i> {{work.frontmatter.ref}}
         </a>
     </div>    
 </div>
-</main>
+</div>
 
 <script>
 export default {
@@ -41,6 +41,19 @@ export default {
       let works = this.$site.pages
       let result = works.filter( work => work.frontmatter.category === 'portfolio')
       return result
+    },
+    refIcon(ref){
+        if(/dribbble/ig.test(ref)){
+            return 'fab fa-dribbble'
+        }
+        else if(/github/ig.test(ref)){
+            return 'fab fa-github'
+        }
+        else if(/behance/ig.test(ref)){
+            return 'fab fa-behance'
+        }else {
+            return ''
+        }
     }
   }
 }

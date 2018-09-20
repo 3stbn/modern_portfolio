@@ -24,7 +24,7 @@ h3 {
   font-weight: 400;
 }
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 h2 {
   margin-bottom: 2rem;
@@ -48,8 +48,7 @@ span {
 }
 
 main {
-  padding: 4rem;
-  // height: 100%;
+  padding: 5rem;
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -177,7 +176,22 @@ main {
   background: lighten($primary-color, 50);
   color: #333;
 }
-
+.portfolio-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+}
+.port-desc {
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background: rgba(lighten($primary-color, 2), 0.3);
+}
+.tags {
+  display: inline;
+  margin: 0 0.5rem; 
+  padding: 0.7rem 1.2rem;
+  background: $secondary-color;
+}
 #main-footer {
   text-align: center;
   padding: 1rem;

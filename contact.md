@@ -3,7 +3,7 @@ title: Contact
 category: page
 order: 4
 ---
-<main>
+<div>
     <h1>
       Contact
       <span>Me</span>
@@ -22,4 +22,4 @@ order: 4
         <span>Address: </span> 50 Main st Boston MA 02101
       </div>
     </div>
-</main>
+</div>

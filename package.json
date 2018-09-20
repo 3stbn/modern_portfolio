@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "Responsive portfolio website",
   "main": "index.js",
-  "homepage": "https://bradtraversy.github.io/modern_portfolio",
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build"
   },
-  "author": "Brad Traversy",
+  "author": "Design:Brad Traversy, Vuepress Implementation: 3stbn",
   "license": "MIT",
   "dependencies": {
     "gh-pages": "^1.2.0",

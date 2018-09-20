@@ -3,7 +3,7 @@ title: About
 category: page
 order: 2
 ---
-  <main>
+  <div>
     <h1>
       About
       <span>Me</span>
@@ -37,4 +37,4 @@ order: 2
           expedita dolor necessitatibus deserunt nemo.</p>
       </div>
     </div>
-  </main>
+  </div>
