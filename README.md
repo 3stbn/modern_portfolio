@@ -8,7 +8,7 @@ You can use npm install but according to the vuepress documentation is better to
  - yarn dev
 ## Use
 
-You can easily eddit the static parts with html in the md files . To add portfolio items just create new md file on the portfolio folder and add the meta data at the top of the file like follows:
+You can easily edit the static parts with html in the md files . To add portfolio items just create new md file on the portfolio folder and add the meta data at the top of the file like follows:
 
     ---
     title: Project 1
@@ -17,9 +17,9 @@ You can easily eddit the static parts with html in the md files . To add portfol
     ref: github
     extLink: https://github.com/
     description: your description
-    tages: [html, css, php]
-    <PortfolioContent />
+    tages: [html, css, php]    
     ---
+    <PortfolioContent />
 
 To add the main image just copy your image on:
 
